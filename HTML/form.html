@@ -1,19 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Student Form</title>
 </head>
+
 <body>
-    <form action="">
-        <input type="text" name="Username" placeholder="Name">
-        <br>
-        <input type="text" name="email" placeholder="Email">
-        <br>
-        <input type="" name="phone_number" placeholder="Mobile Number" >
-        <button>Submit</button>
+
+    <h2>Student Registration Form</h2>
+
+    <form>
+
+
+        Enter ID: <br>
+        <input type="text" name="id"><br><br>
+
+
+        Enter Name: <br>
+        <input type="text" name="name"><br><br>
+
+
+        Enter Address: <br>
+        <textarea name="address"></textarea><br><br>
+
+        >
+        Select Gender: <br>
+        <input type="radio" name="gender" value="Male"> Male
+        <input type="radio" name="gender" value="Female"> Female
+        <br><br>
+
+
+        Select Language: <br>
+        <input type="checkbox" name="language" value="Hindi"> Hindi
+        <input type="checkbox" name="language" value="Marathi"> Marathi
+        <input type="checkbox" name="language" value="English"> English
+        <br><br>
+
+
+        Select Course: <br>
+        <select name="course">
+            <option value="BA">BA</option>
+            <option value="BSC">BSC</option>
+            <option value="BCOM">B.COM</option>
+        </select>
+        <br><br>
+
+
+        <input type="submit" value="Submit">
 
     </form>
+
 </body>
+
 </html>
